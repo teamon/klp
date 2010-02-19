@@ -1,0 +1,211 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strike,strong,sub,sup,tt,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+background:transparent;
+border:0;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+body {
+color:#222;
+font-family:'lucida grande', 'Segoe UI', arial, verdana, 'lucida sans unicode', tahoma, sans-serif;
+font-size:8pt;
+line-height:1;
+padding-top:20px;
+}
+
+ol,ul {
+list-style:none;
+}
+
+blockquote,q {
+quotes:none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+content:"";
+}
+
+ins {
+text-decoration:none;
+}
+
+del {
+text-decoration:line-through;
+}
+
+h1,h2,h3,h4,h5,h6,em,strong,i,b,address,cite,q,dfn,th,a {
+font-style:inherit;
+font-weight:inherit;
+text-decoration:none;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+th,td {
+text-align:left;
+vertical-align:top;
+}
+
+button,input,select,option,textarea {
+font:inherit;
+}
+
+input::-moz-focus-inner {
+border:0;
+margin:0;
+padding:0;
+}
+
+#container {
+margin:auto;
+width:600px;
+}
+
+#main {
+background-color:#f5f5f5;
+margin-bottom:20px;
+overflow:hidden;
+padding:10px 0;
+position:relative;
+}
+
+a {
+color:#1f75cc;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+strong {
+font-weight:700;
+}
+
+div.info {
+position:absolute;
+right:10px;
+top:15px;
+}
+
+h1 {
+color:#1f75cc;
+font-size:12pt;
+font-weight:700;
+padding:5px 0 15px 15px;
+}
+
+h1 span {
+color:#aaa;
+font-size:6pt;
+}
+
+form {
+padding:20px;
+}
+
+fieldset p {
+overflow:hidden;
+}
+
+fieldset label {
+float:left;
+padding:6px;
+text-align:right;
+width:100px;
+}
+
+fieldset label:after {
+content:":";
+}
+
+fieldset input.text,fieldset input.password,fieldset textarea,fieldset select {
+border:1px solid #ccc;
+float:left;
+padding:3px;
+width:300px;
+}
+
+fieldset textarea {
+height:150px;
+width:550px;
+}
+
+form .actions {
+padding-bottom:10px;
+padding-top:10px;
+}
+
+form span.info {
+color:#999;
+float:left;
+padding-bottom:5px;
+padding-left:115px;
+padding-top:2px;
+}
+
+form .actions input {
+-webkit-border-radius:4px;
+background-color:#4e4e4e;
+border:none;
+color:#f2f2f2;
+float:right;
+padding:5px 10px;
+}
+
+#foot {
+color:#aaa;
+font-size:8pt;
+padding:10px 15px;
+}
+
+#foot a {
+font-size:8pt;
+}
+
+#foot p.copy {
+float:right;
+text-align:right;
+width:150px;
+}
+
+#more {
+float:left;
+line-height:11pt;
+width:400px;
+}
+
+#more a {
+color:#bbb;
+}
+
+#more a:hover {
+color:#555;
+}
+
+#howto ul {
+line-height:15px;
+padding-left:20px;
+padding-right:200px;
+}
+
+#howto ul li {
+list-style:decimal;
+}
+
+fieldset input.big {
+font-size:10pt;
+height:20px;
+width:498px;
+}
+
+fieldset label.big {
+float:left;
+font-size:11pt;
+padding:6px 6px 6px 0;
+width:auto;
+}
