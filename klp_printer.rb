@@ -61,6 +61,9 @@ module KLPPrinter
       body = body[%r[</script>.+?</td></tr></table>(.+)strona: &nbsp;&nbsp;]um, 1]
       body.gsub!(%r|<script[^>]*>.*?</script>|um, "")
       body.gsub!(%r|<br>\n(&nbsp;)+<a[^>]*>.+?Reklamy OnetKontekst.+?</a>|um, "")
+      body.gsub!(%r|<b>Jeste.*</font>|um, "")
+      body.gsub!(%r|<table.width.*\n<tr><td>|um, "")
+      body.gsub!(%r|\n.<br><br>|um, "")
       body
     end
 
